@@ -117,19 +117,11 @@ export default function About() {
         <div className="max-w-4xl mx-auto space-y-12">
           <h2 className="text-3xl font-serif font-bold text-primary text-center">Why Choose Vylz</h2>
           <div className="space-y-6">
-            {/* <div className="flex gap-6">
-              <div className="shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                <span className="text-accent font-bold">✓</span>
-              </div>
-              <div>
-                <h4 className="font-serif font-bold text-primary mb-2">20+ Years Experience</h4>
-                <p className="text-foreground/70">Proven expertise across 250+ successful projects in commercial construction and architecture.</p>
-              </div>
-            </div> */}
             <div className="flex gap-6">
-              <div className="shrink-0 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                <span className="text-accent font-bold">✓</span>
+              <div className="shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+                <span className="text-accent text-xl font-bold">✓</span>
               </div>
+
               <div>
                 <h4 className="font-serif font-bold text-primary mb-2">Premium Quality Standards</h4>
                 <p className="text-foreground/70">Committed to uncompromising quality, innovative design, and sustainable building practices.</p>
