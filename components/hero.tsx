@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Hero() {
   const [scrollOpacity, setScrollOpacity] = useState(1)
@@ -53,12 +54,18 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-3 bg-accent text-white font-medium rounded-sm hover:bg-accent/90 transition-all duration-300 hover:shadow-lg hover:translate-y-[-2px]">
+            <Link href={'#services'}>
+                <button className="px-8 py-3 bg-accent text-white font-medium rounded-sm hover:bg-accent/90 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 cursor-pointer">
               Explore Our Work
             </button>
-            <button className="px-8 py-3 border-2 border-white/80 text-white font-medium rounded-sm hover:bg-white/10 transition-all duration-300 hover:border-white">
+            </Link>
+        
+            <Link href={'/contact'}>
+             <button className="px-8 py-3 border-2 border-white/80 text-white font-medium rounded-sm hover:bg-white/10 transition-all duration-300 hover:border-white cursor-pointer">
               Schedule Consultation
             </button>
+            </Link>
+           
           </div>
         </div>
 

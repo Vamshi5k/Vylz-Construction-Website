@@ -1,35 +1,51 @@
 'use client'
 
-import React from "react"
-
-import { Building2, Pencil, Hammer, ClipboardCheck } from 'lucide-react'
+import React from 'react'
+import Link from 'next/link'
+import { Building2, Pencil, Hammer, ClipboardCheck, Phone } from 'lucide-react'
 
 interface Service {
   icon: React.ReactNode
   title: string
   description: string
+  href: string
 }
 
 const services: Service[] = [
   {
     icon: <Building2 size={32} />,
     title: 'Commercial Construction',
-    description: 'End-to-end construction management for premium commercial projects with meticulous attention to detail and timeline adherence.',
+    description:
+      'End-to-end construction management for premium commercial projects with meticulous attention to detail and timeline adherence.',
+    href: '/services/commercial-construction',
   },
   {
     icon: <Pencil size={32} />,
     title: 'Architectural Design',
-    description: 'Contemporary design solutions that blend aesthetic excellence with functional precision for modern businesses.',
-  },
-  {
-    icon: <Hammer size={32} />,
-    title: 'Project Management',
-    description: 'Comprehensive oversight ensuring seamless coordination between stakeholders, contractors, and timelines.',
+    description:
+      'Contemporary design solutions that blend aesthetic excellence with functional precision for modern businesses.',
+    href: '/services/architectural-design',
   },
   {
     icon: <ClipboardCheck size={32} />,
     title: 'Compliance & Certification',
-    description: 'Full regulatory adherence and industry certification support meeting all UK commercial standards.',
+    description:
+      'Full regulatory adherence and industry certification support meeting all UK commercial standards.',
+    href: '/services/compliance',
+  },
+  {
+    icon: <Hammer size={32} />,
+    title: 'Renovation',
+    description:
+      'Professional building renovation services that transform existing structures into modern, efficient, and sustainable spaces.',
+    href: '/services/renovation',
+  },
+  {
+    icon: <Phone size={32} />,
+    title: 'Consulting',
+    description:
+      'Expert consulting services providing strategic guidance for construction, architectural, and development projects of all scales.',
+    href: '/services/consulting',
   },
 ]
 
@@ -39,7 +55,9 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-16 sm:mb-20">
-          <p className="text-sm font-light text-accent tracking-widest uppercase mb-4">Our Expertise</p>
+          <p className="text-sm font-light text-accent tracking-widest uppercase mb-4">
+            Our Expertise
+          </p>
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight max-w-3xl">
             Comprehensive Services
           </h2>
@@ -68,10 +86,15 @@ export default function Services() {
               </p>
 
               {/* Learn More Link */}
-              <div className="mt-6 pt-6 border-t border-border/40 flex items-center text-primary hover:text-accent transition-colors cursor-pointer group/link">
+              <Link
+                href={service.href}
+                className="mt-6 pt-6 border-t border-border/40 flex items-center text-primary hover:text-accent transition-colors group/link"
+              >
                 <span className="text-sm font-medium">Learn More</span>
-                <span className="ml-2 transform group-hover/link:translate-x-1 transition-transform">→</span>
-              </div>
+                <span className="ml-2 transform group-hover/link:translate-x-1 transition-transform">
+                  →
+                </span>
+              </Link>
             </div>
           ))}
         </div>

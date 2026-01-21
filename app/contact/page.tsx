@@ -60,7 +60,7 @@ export default function Contact() {
 
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center pt-20 pb-10 px-4">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5" />
+        <div className="absolute inset-0 bg-linear-to-br from-primary/5 to-accent/5" />
         <div className="relative max-w-3xl mx-auto text-center space-y-6">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary">
             Get in Touch
@@ -79,12 +79,12 @@ export default function Contact() {
               {
                 icon: Phone,
                 label: 'Phone',
-                value: '+44 (0)20 XXXX XXXX',
+                value: '+44 7909 237165',
               },
               {
                 icon: Mail,
                 label: 'Email',
-                value: 'hello@vylz.co.uk',
+                value: 'iamshivanikale@gmail.com',
               },
               {
                 icon: MapPin,
@@ -115,7 +115,7 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Image */}
-            <div className="rounded-lg overflow-hidden h-full min-h-[500px]">
+            <div className="rounded-lg overflow-hidden h-full min-h-125">
               <img
                 src="/contact-office.jpg"
                 alt="Vylz Office"

@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="font-serif text-3xl font-bold mb-4">Vylz</h3>
             <p className="text-background/70 font-light leading-relaxed mb-8 max-w-xs">
-              Leading commercial construction and architectural services in the UK, delivering excellence for over 20 years.
+              Leading commercial construction and architectural services in the UK, delivering excellence 
             </p>
 
             {/* Social Links */}
@@ -69,7 +69,7 @@ export default function Footer() {
               {[
                 { label: 'Commercial Construction', href: '/services/commercial-construction' },
                 { label: 'Architectural Design', href: '/services/architectural-design' },
-                { label: 'Project Management', href: '/services/project-management' },
+                // { label: 'Project Management', href: '/services/project-management' },
                 { label: 'Compliance', href: '/services/compliance' },
                 { label: 'Renovation', href: '/services/renovation' },
               ].map((item) => (
@@ -87,19 +87,19 @@ export default function Footer() {
             <h4 className="font-medium text-background mb-6">Contact</h4>
             <ul className="space-y-4">
               <li className="flex gap-3">
-                <Phone size={16} className="text-accent flex-shrink-0 mt-0.5" />
-                <a href="tel:+442012345678" className="text-background/70 hover:text-background transition-colors font-light text-sm">
-                  +44 (0)20 1234 5678
+                <Phone size={16} className="text-accent shrink-0 mt-0.5" />
+                <a href="tel:+447909 237165" className="text-background/70 hover:text-background transition-colors font-light text-sm">
+                  +44 7909 237165
                 </a>
               </li>
               <li className="flex gap-3">
-                <Mail size={16} className="text-accent flex-shrink-0 mt-0.5" />
-                <a href="mailto:hello@vylz.co.uk" className="text-background/70 hover:text-background transition-colors font-light text-sm">
-                  hello@vylz.co.uk
+                <Mail size={16} className="text-accent shrink-0 mt-0.5" />
+                <a href="mailto:iamshivanikale@gmail.com" className="text-background/70 hover:text-background transition-colors font-light text-sm">
+                  iamshivanikale@gmail.com
                 </a>
               </li>
               <li className="flex gap-3">
-                <MapPin size={16} className="text-accent flex-shrink-0 mt-0.5" />
+                <MapPin size={16} className="text-accent shrink-0 mt-0.5" />
                 <span className="text-background/70 font-light text-sm">London, UK</span>
               </li>
             </ul>

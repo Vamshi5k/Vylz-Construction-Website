@@ -20,7 +20,7 @@ export default function About() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation scrolled={scrolled} />
-      
+
       {/* About Hero Section */}
       <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="space-y-6 animate-fade-in">
@@ -40,11 +40,9 @@ export default function About() {
             <div className="space-y-4">
               <h2 className="text-3xl font-serif font-bold text-primary">Our Story</h2>
               <p className="text-foreground/70 leading-relaxed">
-                Founded in 2003, Vylz began with a simple vision: to deliver exceptional commercial construction and architectural services that exceed client expectations. What started as a small team of passionate professionals has grown into a premier firm with a proven track record of successful projects across the UK.
-              </p>
+                Founded on a vision carefully shaped over the years, Vylz officially launched this year with a clear purpose: to deliver high-quality commercial construction, architectural, and specialized design services that truly add value. What began as a long-term plan driven by passion, expertise, and industry insight has now taken shape as a focused and forward-thinking company.              </p>
               <p className="text-foreground/70 leading-relaxed">
-                Our commitment to quality, innovation, and client satisfaction has been the cornerstone of our success. We've had the privilege of working with leading corporations, government agencies, and private developers on projects ranging from office complexes to retail developments and institutional buildings.
-              </p>
+                Our foundation is built on strong principles—quality workmanship, thoughtful design, and client-centric execution. Although newly implemented, our approach is backed by extensive planning and professional experience, enabling us to confidently handle commercial building construction, architectural activities, and specialized design solutions. At Vylz, we are committed to turning ideas into functional, well-designed spaces while building lasting partnerships through trust, innovation, and attention to detail.              </p>
             </div>
             <div className="rounded-lg h-64 overflow-hidden">
               <img
@@ -102,10 +100,10 @@ export default function About() {
               <h3 className="text-xl font-serif font-bold text-primary">Technical Expertise</h3>
               <p className="text-foreground/70">Our engineers ensure structural integrity and compliance with all regulatory standards and best practices.</p>
             </div>
-            <div className="bg-white border border-border rounded-lg p-8 space-y-4">
+            {/* <div className="bg-white border border-border rounded-lg p-8 space-y-4">
               <h3 className="text-xl font-serif font-bold text-primary">Project Management</h3>
               <p className="text-foreground/70">Experienced managers oversee every project phase to ensure timely completion and cost efficiency.</p>
-            </div>
+            </div> */}
             <div className="bg-white border border-border rounded-lg p-8 space-y-4">
               <h3 className="text-xl font-serif font-bold text-primary">Quality Assurance</h3>
               <p className="text-foreground/70">Rigorous quality checks at every stage guarantee excellence and client satisfaction.</p>
@@ -119,17 +117,17 @@ export default function About() {
         <div className="max-w-4xl mx-auto space-y-12">
           <h2 className="text-3xl font-serif font-bold text-primary text-center">Why Choose Vylz</h2>
           <div className="space-y-6">
-            <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+            {/* <div className="flex gap-6">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
                 <span className="text-accent font-bold">✓</span>
               </div>
               <div>
                 <h4 className="font-serif font-bold text-primary mb-2">20+ Years Experience</h4>
                 <p className="text-foreground/70">Proven expertise across 250+ successful projects in commercial construction and architecture.</p>
               </div>
-            </div>
+            </div> */}
             <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+              <div className="shrink-0 h-12 rounded-full bg-accent/20 flex items-center justify-center">
                 <span className="text-accent font-bold">✓</span>
               </div>
               <div>
@@ -138,7 +136,7 @@ export default function About() {
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
                 <span className="text-accent font-bold">✓</span>
               </div>
               <div>
@@ -147,7 +145,7 @@ export default function About() {
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
                 <span className="text-accent font-bold">✓</span>
               </div>
               <div>

@@ -59,7 +59,7 @@ export default function ServiceLayout({
           <div className="grid md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="flex gap-4">
-                <div className="flex-shrink-0 mt-1">
+                <div className="shrink-0 mt-1">
                   <ArrowRight className="w-5 h-5 text-accent" />
                 </div>
                 <div>
@@ -101,7 +101,7 @@ export default function ServiceLayout({
           <div className="space-y-8">
             {process.map((item, index) => (
               <div key={index} className="flex gap-8">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-full bg-accent text-accent-foreground font-bold">
                     {item.step}
                   </div>

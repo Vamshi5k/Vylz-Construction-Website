@@ -13,21 +13,21 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote: 'Vylz delivered our office transformation with exceptional attention to detail. Their team understood our vision and executed it flawlessly.',
-    author: 'James Mitchell',
-    company: 'Turner Finance',
+    author: 'Shivani RajendraKumar Kale',
+    company: 'Vylz',
     role: 'Managing Director',
   },
   {
     quote: 'Working with Vylz was seamless. Their architectural expertise combined with meticulous project management ensured every deadline was met.',
-    author: 'Sarah Chen',
-    company: 'Apex Consulting',
-    role: 'CEO',
+    author: 'Shivani RajendraKumar Kale',
+       company: 'Vylz',
+    role: 'Managing Director',
   },
   {
     quote: 'The level of professionalism and craftsmanship demonstrated by Vylz set them apart. Highly recommend for any commercial project.',
-    author: 'Christopher Wright',
-    company: 'Heritage Development',
-    role: 'Project Lead',
+    author: 'Shivani RajendraKumar Kale',
+        company: 'Vylz',
+    role: 'Managing Director',
   },
 ]
 

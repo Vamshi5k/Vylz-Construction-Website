@@ -25,7 +25,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navigation scrolled={scrolled} />
       <Hero />
-      <Stats />
+      {/* <Stats /> */}
       <Services />
       <Testimonials />
       <Newsletter />

@@ -44,18 +44,18 @@ export default function Services() {
         'Interior space planning'
       ]
     },
-    {
-      title: 'Project Management',
-      description: 'Comprehensive project management ensuring timely, cost-effective delivery of your vision.',
-      href: '/services/project-management',
-      features: [
-        'Stakeholder coordination',
-        'Schedule and budget management',
-        'Resource planning and allocation',
-        'Risk management strategies',
-        'Progress reporting and documentation'
-      ]
-    },
+    // {
+    //   title: 'Project Management',
+    //   description: 'Comprehensive project management ensuring timely, cost-effective delivery of your vision.',
+    //   href: '/services/project-management',
+    //   features: [
+    //     'Stakeholder coordination',
+    //     'Schedule and budget management',
+    //     'Resource planning and allocation',
+    //     'Risk management strategies',
+    //     'Progress reporting and documentation'
+    //   ]
+    // },
     {
       title: 'Compliance & Regulatory',
       description: 'Expert guidance through building codes, regulations, and compliance requirements.',
@@ -127,10 +127,10 @@ export default function Services() {
                 <p className="text-foreground/70 leading-relaxed">
                   {service.description}
                 </p>
-                <ul className="space-y-3 flex-grow">
+                <ul className="space-y-3 grow">
                   {service.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-3 text-sm text-foreground/60">
-                      <ChevronRight size={16} className="text-accent flex-shrink-0 mt-0.5" />
+                      <ChevronRight size={16} className="text-accent shrink-0 mt-0.5" />
                       <span>{feature}</span>
                     </li>
                   ))}

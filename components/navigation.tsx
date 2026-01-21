@@ -21,7 +21,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
   const serviceItems = [
     { label: 'Commercial Construction', href: '/services/commercial-construction' },
     { label: 'Architectural Design', href: '/services/architectural-design' },
-    { label: 'Project Management', href: '/services/project-management' },
+    // { label: 'Project Management', href: '/services/project-management' },
     { label: 'Compliance', href: '/services/compliance' },
     { label: 'Renovation', href: '/services/renovation' },
     { label: 'Consulting', href: '/services/consulting' },

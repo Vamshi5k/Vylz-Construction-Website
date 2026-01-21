@@ -119,7 +119,7 @@ export default function Contact() {
                       type="tel"
                       name="phone"
                       className="w-full px-4 py-3 border border-border rounded-sm bg-background text-foreground placeholder:text-foreground/40 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
-                      placeholder="+44 (0)20 1234 5678"
+                      placeholder="+44 7909 237165"
                     />
                     <ErrorMessage name="phone">
                       {(msg) => <p className="text-red-500 text-xs mt-1">{msg}</p>}
